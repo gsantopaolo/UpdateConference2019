@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>MNIST_TensorFlowdotNet</AssemblyName>
+    <RootNamespace>MNIST_TensorFlowdotNet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SciSharp.TensorFlow.Redist-Windows-GPU" Version="1.14.0" />
+    <PackageReference Include="SciSharp.TensorFlowHub" Version="0.0.3" />
+    <PackageReference Include="TensorFlow.NET" Version="0.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sea.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="tf.min.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
