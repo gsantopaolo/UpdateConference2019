@@ -1,7 +1,3 @@
-
-
-
-
 # AI for every developer - [Update Conference Prague 2019](https://www.updateconference.net/) course material 
 Course material for the AI for every developer course.
 This is the repository with all the assets out of my speech at the Update Conference 2019 in Prague.
@@ -156,6 +152,8 @@ Contains the sample demonstrating how to create the MNIST
 - [TensorFlow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md ) 
 - [Cafee model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)   
 - Christopher Olah’s blog about DL http://colah.github.io/ 
+
+
 ------
 
 #Credits
