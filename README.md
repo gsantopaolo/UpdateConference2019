@@ -156,7 +156,7 @@ Contains the sample demonstrating how to create the MNIST
 
 ------
 
-#Credits
+# Credits
 
 Special thanks to the following people and groups that contributed inspiration, ideas or support for this ever-evolving talk / workshop:
 - [Jason Mayes](https://twitter.com/jason_mayes)
