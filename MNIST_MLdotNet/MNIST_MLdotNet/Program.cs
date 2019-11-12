@@ -86,11 +86,8 @@ namespace MNIST_MLdotNet
                 
                 // export to ONNX fails because of this
                 // https://github.com/dotnet/machinelearning/issues/3973
-                using (var fileStream = File.Create(ONNXPath))
-                {
-                    mlContext.Model.ConvertToOnnx(trainedModel, trainData, fileStream);
-                }
-
+                //using (var fs = new FileStream(ModelPath, FileMode.Create, FileAccess.Write, FileShare.Write))
+                //    mlContext.Model.ConvertToOnnx(trainedModel, trainData, fs);
 
                 Console.WriteLine("The model is saved to {0}", ModelPath);
             }
