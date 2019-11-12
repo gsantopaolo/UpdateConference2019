@@ -23,21 +23,21 @@ You can find the slides on the [assets folder](https://github.com/gsantopaolo/Up
 - [Useful Resources](https://github.com/gsantopaolo/UpdateConference2019#useful-resources)
 - [Credits](https://github.com/gsantopaolo/UpdateConference2019#credits)
 
-------
+
 # Requirements
 To run all the samples you're gonna need Visual Studio 2017 or 2019 (any version) to run all the .Net related samples.
 You also gonna need .Net Core 3.0 installed on your machine.
 To run the ONNX converter you need Docker installed on your system.
 
 To run the notebooks and the Python/TensorFlow/Keras related samples you're gonna need Anaconda
-------
+
 # Cloning the repository
 Open a Bash prompt, move on the parent directory where you want to clone the repository and type the following command on a Bash console:
 
 ```
 git clone https://github.com/gsantopaolo/UpdateConference2019.git
 ```
-------
+
 # Installing and configuring Anaconda
 ## Download and Install Anaconda Python 3.7
 
@@ -115,7 +115,7 @@ One thing you can also try is to update your conda executable. This may help if 
 ```
 conda update conda
 ```
-------
+
 # Samples
 ## MNIST_MLdotNet
 Contains the sample demonstrating how to create the MNIST 
@@ -127,7 +127,8 @@ Contains the sample demonstrating how to create the MNIST
 ## Notebooks
 
 ## MNIST_Client
-------
+
+
 # Useful Resources
 - [Book] Make Your Own Neural Network - Rashid, Tariq 
 - [Book] Deep Learning with Python - Chollet, Francois
@@ -153,8 +154,6 @@ Contains the sample demonstrating how to create the MNIST
 - [Cafee model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)   
 - Christopher Olah’s blog about DL http://colah.github.io/ 
 
-
-------
 
 # Credits
 
