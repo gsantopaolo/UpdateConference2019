@@ -1,4 +1,4 @@
-name: ai_for_every_dev
+name: ai_for_every_dev_gpu
 channels:
 - defaults
 dependencies:

@@ -50,12 +50,6 @@ Check that your prompt changed to
 jupyter notebook
 ```
 
-#### Open your browser to
-
-```
-http://localhost:8888
-```
-
 #### Run the Check environment Notebook
 
 Go to the notebooks folder, open the notebook `check_environment.ipynb` and run it. If you see the message:
@@ -93,4 +87,3 @@ One thing you can also try is to update your conda executable. This may help if 
 ```
 conda update conda
 ```
-
