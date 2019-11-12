@@ -7,10 +7,10 @@ Course material for the AI for every developer course
 
 # AI for every developer - [Update Conference Prague 2019](https://www.updateconference.net/) course material 
 This is the repository with all the assets out of my speech at the Update Conference 2019 in Prague.
-You can find the slides on the assts folder both in PDF and POwer Point format
+You can find the slides on the [assets folder](https://github.com/gsantopaolo/UpdateConference2019/tree/master/Assets) both in PDF and Power Point format
 
 # Requirements
-To runn all the samples you're gonna need Visual Studio 2017 or 2019 (any version) to run all the .Net related samples.
+To run all the samples you're gonna need Visual Studio 2017 or 2019 (any version) to run all the .Net related samples.
 You also gonna need .Net Core 3.0 installed on your machine.
 To run the ONNX converter you need Docker installed on your system.
 
@@ -101,3 +101,49 @@ One thing you can also try is to update your conda executable. This may help if 
 conda update conda
 ```
 # Samples
+## MNIST_MLdotNet
+Contains the sample demonstrating how to create the MNIST 
+
+## MNIST_TensorFlowdotNet
+
+## MNIST_KerasdotNet
+
+## Notebooks
+
+## MNIST_Client
+
+# Useful Resources
+- [Book] Make Your Own Neural Network - Rashid, Tariq 
+- [Book] Deep Learning with Python - Chollet, Francois
+- [Book] Andrew Glassner   - [Deep Learning, Vol. 1: From Basics to Practice](https://www.amazon.com/dp/B079XSQNRX/)
+- [Book] Yaser S. Abu-Mostafa – [Learning from data](https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069)  (inside the book instruction to access whole semester course gave by prof. Yaser S. Abu-Mostafa  at California Institute of Technology)
+- [Video] Andrew Glassner – [Deep Learning: A crash Course](https://www.youtube.com/watch?v=r0Ogt-q956I ) 
+- MIT - Massachusetts Institute of Technology – Professional Certificate Program in Machine Learning & Artificial Intelligence
+- Microsoft’s official [AI site for devs](https://azure.microsoft.com/en-us/overview/ai-platform/) 
+- Microsoft’s [AI School](https://aischool.microsoft.com/en-us/learning-paths ) 
+- [Video] Jason Mayers – [Machine Learning in 45 Minutes](https://www.youtube.com/watch?v=X4I9QmcSEYo)  
+- [Video] Chris Lauren – Seth Juarez - [Demystifying Machine and Deep Learning for - Developers](https://www.youtube.com/watch?v=cU7Wq5k8u-U)  
+- [Introducing ML.NET](https://www.youtube.com/watch?v=OhCysVU5RDA ) 
+- [ONNX](https://onnx.ai/) 
+- [ONNX Model Zoo](https://github.com/onnx/models)  
+- [ONNX models for WinML](https://docs.microsoft.com/en-us/windows/ai/get-onnx-model)  
+- [Azure AI Gallery](https://gallery.azure.ai/models ) curates models for use with Windows ML 
+- [Ml .Net Samples](https://github.com/dotnet/machinelearning-samples)  
+- [Video series] [CH9 – AI Show](https://channel9.msdn.com/Shows/AI-Show) 
+- [The MNIST Database](http://yann.lecun.com/exdb/mnist/ ) 
+- [Kaggle Datasets database](https://www.kaggle.com/datasets)  
+- [Getting started with TensorFlow](https://tf.wiki/en/basic.html ) 
+- [TensorFlow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md ) 
+- [Cafee model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)   
+- Christopher Olah’s blog about DL http://colah.github.io/ 
+
+
+#Credits
+Special thanks to the following people and groups that contributed inspiration, ideas or support for this ever-evolving talk / workshop:
+- [Jason Mayes](https://twitter.com/jason_mayes)
+- [Rick Barraza](https://twitter.com/rickbarraza)
+- [Seth Juarez](https://twitter.com/sethjuarez)
+- [Ankit](https://twitter.com/ankitasthana86)
+- [Chris Olah](https://twitter.com/ch402)	 
+- [The Asimov Institute](http://www.asimovinstitute.org/)
+- [Andrew Glassner](https://twitter.com/andrewglassner)
