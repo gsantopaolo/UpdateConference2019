@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MNIST", "MNIST", "{799E139F-F04C-418A-8B7F-ECF5B495342C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNIST.Client.UWP", "MNIST.Client.UWP\MNIST.Client.UWP.csproj", "{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|Any CPU.Build.0 = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|ARM.Build.0 = Debug|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|ARM.Deploy.0 = Debug|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x64.ActiveCfg = Debug|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x64.Build.0 = Debug|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x64.Deploy.0 = Debug|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x86.ActiveCfg = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x86.Build.0 = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Debug|x86.Deploy.0 = Debug|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|Any CPU.ActiveCfg = Release|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|Any CPU.Build.0 = Release|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|Any CPU.Deploy.0 = Release|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|ARM.ActiveCfg = Release|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|ARM.Build.0 = Release|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|ARM.Deploy.0 = Release|ARM
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x64.ActiveCfg = Release|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x64.Build.0 = Release|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x64.Deploy.0 = Release|x64
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x86.ActiveCfg = Release|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x86.Build.0 = Release|x86
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{676F2681-8BD8-4684-9752-2FDB2EC7BDA4} = {799E139F-F04C-418A-8B7F-ECF5B495342C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE07E5E0-BAD7-4257-A2F2-8521C2E67532}
+	EndGlobalSection
+EndGlobal

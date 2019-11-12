@@ -26,9 +26,13 @@ cd UpdateConference2019
 ```
 
 #### Create the course environment
-
+if you want to use the CPU
 ```
 conda env create
+```
+If you have an NVidia GPU GTX/RTX
+```
+conda env create -f environment-gpu.yml
 ```
 
 wait for the environment to create.
