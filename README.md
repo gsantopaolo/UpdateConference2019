@@ -1,28 +1,47 @@
-# UpdateConference2019
-Course material for the AI for every developer course
 
-[[_TOC_]]
 
-------
+
 
 # AI for every developer - [Update Conference Prague 2019](https://www.updateconference.net/) course material 
+Course material for the AI for every developer course.
 This is the repository with all the assets out of my speech at the Update Conference 2019 in Prague.
 You can find the slides on the [assets folder](https://github.com/gsantopaolo/UpdateConference2019/tree/master/Assets) both in PDF and Power Point format
 
+- [Requirements](https://github.com/gsantopaolo/UpdateConference2019#requirements)
+- [Cloning the repository](https://github.com/gsantopaolo/UpdateConference2019#cloning-the-repository)
+- [Installing and configuring Anaconda](https://github.com/gsantopaolo/UpdateConference2019#installing-and-configuring-anaconda)
+-- Download and Install Anaconda Python 3.7
+-- Open an Anaconda prompt and change to course folder
+-- Create the course environment
+-- Activate the environment
+-- Launch Jupyter Notebook
+-- Run the Check environment Notebook
+-- Troubleshooting installation
+-- Updating Conda
+- [Samples](https://github.com/gsantopaolo/UpdateConference2019#samples)
+-- MNIST_MLdotNet
+-- MNIST_TensorFlowdotNet
+-- MNIST_KerasdotNet
+-- Notebooks
+-- MNIST_Client
+- [Useful Resources](https://github.com/gsantopaolo/UpdateConference2019#useful-resources)
+- [Credits](https://github.com/gsantopaolo/UpdateConference2019#credits)
+
+------
 # Requirements
 To run all the samples you're gonna need Visual Studio 2017 or 2019 (any version) to run all the .Net related samples.
 You also gonna need .Net Core 3.0 installed on your machine.
 To run the ONNX converter you need Docker installed on your system.
 
 To run the notebooks and the Python/TensorFlow/Keras related samples you're gonna need Anaconda
-
+------
 # Cloning the repository
 Open a Bash prompt, move on the parent directory where you want to clone the repository and type the following command on a Bash console:
 
 ```
 git clone https://github.com/gsantopaolo/UpdateConference2019.git
 ```
-
+------
 # Installing and configuring Anaconda
 ## Download and Install Anaconda Python 3.7
 
@@ -100,6 +119,7 @@ One thing you can also try is to update your conda executable. This may help if 
 ```
 conda update conda
 ```
+------
 # Samples
 ## MNIST_MLdotNet
 Contains the sample demonstrating how to create the MNIST 
@@ -111,7 +131,7 @@ Contains the sample demonstrating how to create the MNIST
 ## Notebooks
 
 ## MNIST_Client
-
+------
 # Useful Resources
 - [Book] Make Your Own Neural Network - Rashid, Tariq 
 - [Book] Deep Learning with Python - Chollet, Francois
@@ -136,9 +156,10 @@ Contains the sample demonstrating how to create the MNIST
 - [TensorFlow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md ) 
 - [Cafee model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)   
 - Christopher Olah’s blog about DL http://colah.github.io/ 
-
+------
 
 #Credits
+
 Special thanks to the following people and groups that contributed inspiration, ideas or support for this ever-evolving talk / workshop:
 - [Jason Mayes](https://twitter.com/jason_mayes)
 - [Rick Barraza](https://twitter.com/rickbarraza)
@@ -147,3 +168,16 @@ Special thanks to the following people and groups that contributed inspiration, 
 - [Chris Olah](https://twitter.com/ch402)	 
 - [The Asimov Institute](http://www.asimovinstitute.org/)
 - [Andrew Glassner](https://twitter.com/andrewglassner)
+- [The Emerging Experiences friends](https://emerging-experiences.slack.com/)
+-- Andras Velvart
+-- Andreas Erben
+-- Bronwen Zande
+-- David Renton
+-- Dennis Vroegop
+-- Dwight Goins
+-- Gordon McTaco
+-- James Ashley
+-- Jasper Brekelmans
+-- Joshua Blake
+-- Tim Huckaby
+-- Vincent Guigui
