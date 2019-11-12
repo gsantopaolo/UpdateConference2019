@@ -118,13 +118,17 @@ conda update conda
 
 # Samples
 ## MNIST_MLdotNet
-Contains the sample demonstrating how to create the MNIST 
+Contains the [sample](https://github.com/gsantopaolo/UpdateConference2019/tree/master/MNIST_MLdotNet) demonstrating how to train a model to classify hand written digits using the MNIST data-set and ML.NET
 
 ## MNIST_TensorFlowdotNet
+Contains the [sample](https://github.com/gsantopaolo/UpdateConference2019/tree/master/MNIST_TensorFlowdotNet) demonstrating how to train a model to classify hand written digits using the MNIST data-set and [SciSharp/TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)
 
 ## MNIST_KerasdotNet
+Contains the [sample](https://github.com/gsantopaolo/UpdateConference2019/tree/master/MNIST_MLdotNet) demonstrating how to train a model to classify hand written digits using the MNIST data-set and [SciSharp/Keras.NET](https://github.com/SciSharp/Keras.NET)
 
 ## Notebooks
+Here you can find a [TensorFlow notebook](https://github.com/gsantopaolo/UpdateConference2019/blob/master/notebooks/MNIST_TensorFlow.ipynb) and a [Keras Notebook](https://github.com/gsantopaolo/UpdateConference2019/blob/master/notebooks/MNIST_Keras.ipynb) demonstrating how to train a model to classify hand written digits using the MNIST data-set.
+You need to [install the Anaconda environment](https://github.com/gsantopaolo/UpdateConference2019#installing-and-configuring-anaconda) and then launch corresponding the [Jupyter notebook](https://github.com/gsantopaolo/UpdateConference2019#launch-jupyter-notebook)
 
 ## MNIST_Client
 
