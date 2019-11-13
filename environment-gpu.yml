@@ -1,4 +1,4 @@
-name: ai_for_every_dev_gpu
+name: ai_for_every_dev
 channels:
 - defaults
 dependencies:
@@ -19,5 +19,7 @@ dependencies:
 - pytest==3.9.*
 - twisted==18.9.*
 - tensorflow-gpu==1.14.*
+- tensorboard==1.14.*
+- keras==2.2.*
 - pip:
-  - keras==2.2.*
+  - keras-gpu==2.2.*

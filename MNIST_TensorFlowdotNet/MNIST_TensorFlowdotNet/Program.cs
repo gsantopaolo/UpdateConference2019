@@ -7,10 +7,12 @@ using static Tensorflow.Binding;
 
 namespace MNIST_TensorFlowdotNet
 {
+    /// <summary>
+    /// Originaly taken from https://github.com/SciSharp/TensorFlow.NET-Examples
+    /// and adapted for the purpose of the course
+    /// </summary>
     class Program
     {
-        
-
         const int img_h = 28, img_w = 28; // MNIST images are 28x28
         static int n_classes = 10; // Number of classes, one class per digit
         static int n_channels = 1;

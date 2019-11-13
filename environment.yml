@@ -19,5 +19,7 @@ dependencies:
 - pytest==3.9.*
 - twisted==18.9.*
 - tensorflow==1.14.*
+- tensorboard==1.14.*
+- keras==2.2.*
 - pip:
   - keras==2.2.*

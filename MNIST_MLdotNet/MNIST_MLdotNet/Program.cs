@@ -8,6 +8,10 @@ using MNIST_MLdotNet.DataStructures;
 
 namespace MNIST_MLdotNet
 {
+    /// <summary>
+    /// Originaly taken from https://github.com/dotnet/machinelearning-samples
+    /// and adapted for the purpose of the course
+    /// </summary>
     class Program
     {
         private static string BaseDatasetsRelativePath = @"../../../Data";
@@ -81,8 +85,6 @@ namespace MNIST_MLdotNet
                 ConsoleHelper.PrintMultiClassClassificationMetrics(trainer.ToString(), metrics);
 
                 mlContext.Model.Save(trainedModel, trainData.Schema, ModelPath);
-                mlContext.Model.Save(trainedModel, trainData.Schema, ModelPath);
-
                 
                 // export to ONNX fails because of this
                 // https://github.com/dotnet/machinelearning/issues/3973

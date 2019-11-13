@@ -11,6 +11,10 @@ using Numpy;
 
 namespace MNIST_KerasdotNet
 {
+    /// <summary>
+    /// Originaly taken from https://github.com/SciSharp/Keras.NET
+    /// and adapted for the purpose of the course
+    /// </summary>
     class Program
     {
 
